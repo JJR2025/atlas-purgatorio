@@ -11,10 +11,10 @@ body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font
 h1{font-size:19px;font-weight:700;line-height:1.3}.header p{font-size:12px;color:#B8CAD6;margin-top:7px}.header em{color:#E7B8BE}
 main{max-width:1100px;margin:0 auto;padding:28px 20px 40px}
 .intro{max-width:78ch;color:var(--muted);margin-bottom:24px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 a.card{display:flex;flex-direction:column;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--sh);padding:22px 24px;color:inherit;text-decoration:none;border-top:4px solid var(--blue);transition:transform .12s}
 a.card:hover{transform:translateY(-2px)}
-a.card:nth-child(2){border-top-color:var(--red)} a.card:nth-child(3){border-top-color:var(--teal)}
+a.card:nth-child(2){border-top-color:var(--ink)} a.card:nth-child(3){border-top-color:var(--red)} a.card:nth-child(4){border-top-color:var(--teal)}
 .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);font-weight:600}
 .card h2{font-size:17px;color:var(--ink)}.card p{font-size:13px;color:var(--muted)}
 .ir{margin-top:auto;font-size:13px;font-weight:700;color:var(--red)}
@@ -23,8 +23,9 @@ footer{font-size:10.5px;color:var(--faint);text-align:center;padding:0 24px 28px
 </style></head><body>
 <div class="header"><div><div class="inst">Universidad Carlos III de Madrid<br>Historia Económica · Programa Interuniversitario</div><div class="autor">José Juan Ruiz Gómez</div><div class="coautor">Dir. Carlos Álvarez Nogal</div></div><div class="div"></div>
 <div><h1>Atlas de la tesis</h1><p>Tesis doctoral <em>«Cuando el Rey vendió el Purgatorio. La desamortización de la España ilustrada (1798–1808)»</em></p></div></div>
-<main><p class="intro">Tres atlas interactivos acompañan a la tesis. Cada uno se genera con un cuaderno de la cadena de reproducibilidad, se comprueba contra su fuente canónica antes de publicarse y lleva en el pie su versión, su fecha y la huella de los datos que contiene.</p>
+<main><p class="intro">Cuatro atlas interactivos acompañan a la tesis. Cada uno se genera con un cuaderno de la cadena de reproducibilidad, se comprueba contra su fuente canónica antes de publicarse y lleva en el pie su versión, su fecha y la huella de los datos que contiene.</p>
 <div class="grid">
+<a class="card" href="tesoreria/"><span class="k">Hacienda de la Monarquía</span><h2>Atlas de la Tesorería General</h2><p>Las Cuentas de Cargo y Data de la Tesorería General (Archivo General de Simancas), 1780–1805: ingresos, gastos, déficit y su financiación, con las series de contraste de Comín, Tedde y Torres Sánchez.</p><span class="ir">Abrir el Atlas →</span></a>
 <a class="card" href="ahpm/"><span class="k">Base empírica</span><h2>Atlas del AHPM</h2><p>Las 77.686 escrituras de venta de bienes eclesiásticos de las escribanías de López Fando y Feliciano del Corral (Archivo Histórico de Protocolos de Madrid), 1798–1808, y los siete anillos del análisis.</p><span class="ir">Abrir el Atlas →</span></a>
 <a class="card" href="san-carlos/"><span class="k">Accionariado de 1782</span><h2>Atlas del Banco de San Carlos</h2><p>Los 4.459 asientos del <i>Índice de los primitivos accionistas</i> de Teresa Tortella (Archivo Histórico del Banco de España): categorías, geografía, tenencias y numeración.</p><span class="ir">Abrir el Atlas →</span></a>
 <a class="card" href="sesiones/"><span class="k">Trazabilidad del uso de IA</span><h2>Atlas de las sesiones con IA</h2><p>Índice de las 500 conversaciones de trabajo con Claude que intervinieron en la tesis, con sus huellas y sus análisis agregados. Las conversaciones completas están a disposición del tribunal.</p><span class="ir">Abrir el Atlas →</span></a>
