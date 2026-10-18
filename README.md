@@ -13,8 +13,8 @@ Atlas interactivos que acompañan a la tesis doctoral de José Juan Ruiz Gómez 
 
 | Documento | Dirección estable (QR) | Versión publicada | Contenido |
 |---|---|---|---|
-| Anexo técnico I · Las doce hipótesis | https://jjruiz.org/hipotesis | `anexo/hipotesis/v1/` | Fichas H1-H12 (capítulo 8) |
-| Anexo técnico II · El modelo del capítulo 9 | https://jjruiz.org/modelo | `anexo/modelo/v1/` | Club religioso, SPI y juego de Stackelberg (capítulo 9) |
+| Anexo técnico I · Las doce hipótesis | https://jjruiz.org/hipotesis | `anexo/hipotesis/v2/` | Fichas H1-H12 (capítulo 8) |
+| Anexo técnico II · El modelo del capítulo 9 | https://jjruiz.org/modelo | `anexo/modelo/v2/` | Club religioso, SPI y juego de Stackelberg (capítulo 9) |
 
 Cada página es un HTML autónomo, con las ecuaciones en MathML, y lleva junto a ella su versión en PDF. Las cifras corresponden a la ejecución de referencia de 13 de octubre de 2026 de las cadenas `HIPOTESIS` y `MODELOS`. Como los Atlas, las versiones no se sobrescriben: una revisión se publica en `v2/` y solo cambia la redirección.
 
