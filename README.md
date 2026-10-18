@@ -9,6 +9,15 @@ Atlas interactivos que acompañan a la tesis doctoral de José Juan Ruiz Gómez 
 | Atlas del Banco de San Carlos | https://jjruiz.org/atlas-san-carlos | `san-carlos/v1/` | `a0d1a9b89f9a` |
 | Atlas de las sesiones con IA | https://jjruiz.org/atlas-sesiones | `sesiones/v1/` | `83339288f875` |
 
+## Anexo técnico
+
+| Documento | Dirección estable (QR) | Versión publicada | Contenido |
+|---|---|---|---|
+| Anexo técnico I · Las doce hipótesis | https://jjruiz.org/hipotesis | `anexo/hipotesis/v1/` | Fichas H1-H12 (capítulo 8) |
+| Anexo técnico II · El modelo del capítulo 9 | https://jjruiz.org/modelo | `anexo/modelo/v1/` | Club religioso, SPI y juego de Stackelberg (capítulo 9) |
+
+Cada página es un HTML autónomo, con las ecuaciones en MathML, y lleva junto a ella su versión en PDF. Las cifras corresponden a la ejecución de referencia de 13 de octubre de 2026 de las cadenas `HIPOTESIS` y `MODELOS`. Como los Atlas, las versiones no se sobrescriben: una revisión se publica en `v2/` y solo cambia la redirección.
+
 ## Cómo se garantiza que cada Atlas es la versión correcta
 
 1. **Se genera, no se edita.** Cada Atlas sale de un cuaderno de la cadena de la tesis (`02_ATLAS_TESORERIA`, `21__EXPLORADOR`, `ATLAS_SAN_CARLOS`, `ATLAS_SESIONES`) a partir de su fuente canónica.
